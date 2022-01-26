@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello React!</title>
+  <script src="http://ku.shouce.ren/libs/react/0.14.7/react.min.js"></script>
+  <script src="http://ku.shouce.ren/libs/react/0.14.7/react-dom.min.js"></script>
+  <script src="http://ku.shouce.ren/libs/react/browser.min.js"></script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+    let VDOM = <h1>Hello, world!</h1>
+    // ReactDom.render(虚拟dom，容器)
+    ReactDOM.render(VDOM,document.getElementById('root'));
+  </script>
+</body>
+
+</html>
